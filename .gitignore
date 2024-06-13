@@ -63,3 +63,23 @@ _NCrunch_*
 
 # Ignore Temp files
 *.ini
+
+# Mesh and CT files
+*.ply
+*.stl
+*.obj
+*.xyz
+*.off
+*.vtk
+*.dcm
+*.tiff
+*.raw
+*.mtl
+*.nii
+*.gz
+*.zip
+
+# Images
+*.jpg
+*.jpeg
+*.png
