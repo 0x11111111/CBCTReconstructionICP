@@ -19,6 +19,9 @@
 *.sdf
 *.pyc
 *.pyo
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
 
 # Ignore all the build output
 *Release/*.obj
@@ -83,3 +86,163 @@ _NCrunch_*
 *.jpg
 *.jpeg
 *.png
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# pyenv
+.python-version
+
+# dotenv
+.env
+.env.*
+
+# virtualenv
+.venv/
+venv/
+ENV/
+
+# Spyder project settings
+.spyderproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+
+# Pyre type checker
+.pyre/
+
+# Pylint
+.pylint.d/
+
+# Pytest
+.pytest_cache/
+
+# Jupyter Notebook configuration
+.jupyter/
+
+# Jupyter Notebook runtime
+.runtime/
+
+# JupyterLab
+.lab/
+
+# IPython history
+.ipython/
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Thumbnails
+.thumbnails/
+
+# Tmp files
+temp/
+
+# Model files
+*.stl
+*.vtp
+
+# Mesh and CT files
+*.ply
+*.stl
+*.obj
+*.xyz
+*.off
+*.vtk
+*.dcm
+*.tiff
+*.raw
+*.mtl
+*.nii
+*.gz
+*.zip
+!models/*.zip
+
+# Executables
+*.out
+*.app
+*.exe
+
+# Compiled 
+*.pdb
+x64/Release/VTK_CGAL_Libigl.lib
+x64/Release/cbct_jaw_registration.exp
+x64/Release/cbct_jaw_registration.lib
+
+# Personal IDE conf
+*.vcxproj.user
+.vs/
+
+# Release
+VTK_CGAL_Libigl/
+v17/
+
+# Sensitive data
+*.jpg
+*.jpeg
+*.png
+
+# YOLOv10 files
+yolov10/
+runs/
+
+# Model files
+models/
+*.pt
+
+# Data
+data/

@@ -1,0 +1,10 @@
+path: D:/Code/CBCT_Reconstruction_ICP/data/dataset/detect_arch
+train: images/train # train images
+val: images/val # val images
+#test: ./dataset/score/images/test # test images (optional)
+
+# Classes
+nc: 2 # number of classes
+names: ['arch', 'vomer']  # class names
+
+model: yolov10n.yaml 
